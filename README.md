@@ -5,7 +5,7 @@ Y86-64 Simulator
 
 ```bash
 sudo apt update -y && sudo apt upgrade -y && sudo apt auto-remove -y && sudo apt install vim neovim dos2unix tcl tcl-dev tk tk-dev flex bison -y
-find . -type f -exec dos2unix {} + 
+sudo find . -type f -exec dos2unix {} + 
 make clean; make
 cd seq
 ./ssim -g ../y86-code/asum.yo
