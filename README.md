@@ -5,9 +5,12 @@ Y86-64 Simulator
 # 실습 환경
 
 Distributor ID: Ubuntu
-Description:    Ubuntu 22.04.2 LTS
-Release:        22.04
-Codename:       jammy
+
+Description: Ubuntu 22.04.2 LTS
+
+Release: 22.04
+
+Codename: jammy
 
 # How to Build and Run
 
