@@ -13,7 +13,10 @@ Release: 22.04
 Codename: jammy
 
 # How to Build and Run
-
+```bash
+./build_script.sh
+```
+or
 ```bash
 sudo apt update -y && sudo apt upgrade -y && sudo apt auto-remove -y && sudo apt install dos2unix tcl tcl-dev tk tk-dev flex bison -y
 sudo find . -type f -exec dos2unix {} +
